@@ -44,15 +44,15 @@ img12 = Image.open(('images/12.jpg'))
 img13 = Image.open('images/13.jpg')
 img14 = Image.open(('images/14.jpg'))
 img15 = Image.open(('images/15.jpg'))
-img16 = Image.open(('images/16.jpg'))
+#img16 = Image.open(('images/16.jpg'))
 img17 = Image.open(('images/17.jpg'))
 img18 = Image.open(('images/18.jpg'))
-img19= Image.open('images/19.jpg') 
-img20= Image.open('images/20.jpg')
-img21= Image.open('images/21.jpg')
-img22= Image.open('images/22.jpg') 
-img23= Image.open('images/23.jpg')
-img24= Image.open('images/24.jpg')
+img19 = Image.open('images/19.jpg') 
+img20 = Image.open('images/20.jpg')
+img21 = Image.open('images/21.jpg')
+img22 = Image.open('images/22.jpg') 
+img23 = Image.open('images/23.jpg')
+img24 = Image.open('images/24.jpg')
 
 
 
@@ -183,8 +183,8 @@ with st.container():
     st.write('##')
     image_column01 , image_column02, image_column03 = st.columns(3)
 
-    with image_column01:
-        st.image(img16)
+    #with image_column01:
+        #st.image(img16)
         
     with image_column02:
         st.image(img17)
