@@ -47,9 +47,7 @@ img15 = Image.open('images/15.jpg')
 img16 = Image.open('images/a16.jpg')
 img17 = Image.open('images/a17.jpg')
 img18 = Image.open('images/a18.jpg')
-img19 = Image.open('images/ab19.jpg') 
-img20 = Image.open('images/ab20.jpg')
-img21 = Image.open('images/ab21.jpg')
+
 
 # 2 - Use Local Css to config. Website
 
@@ -186,13 +184,3 @@ with st.container():
     with image_column03:
         st.image(img18)
         
-    image_column01 , image_column02, image_column03 = st.columns(3)
-
-    with image_column01:
-        st.image(img19)
-        
-    with image_column02:
-        st.image(img20)
-        
-    with image_column03:
-        st.image(img21)
