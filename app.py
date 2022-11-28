@@ -36,9 +36,14 @@ img04 = Image.open('images/04.jpg')
 img05 = Image.open('images/05.jpg')
 img06 = Image.open('images/06.jpg')
 img07 = Image.open('images/07.jpg')
-img08 = Image.open(('images/08.jpg'))
-img09 = Image.open(('images/09.jpg'))
-
+img08 = Image.open('images/08.jpg')
+img09 = Image.open('images/09.jpg')
+img10 = Image.open('images/10.jpg')
+img11 = Image.open('images/11.jpg')
+img12 = Image.open('images/12.jpg')
+img13 = Image.open('images/13.jpg')
+img14 = Image.open('images/14.jpg')
+img15 = Image.open('images/15.jpg')
 
 
 # 2 - Use Local Css to config. Website
@@ -108,7 +113,7 @@ with st.container():
 # 6.2 - Project01 - Pandas Visualization - Section04
 with st.container():
     st.write('---')
-    st.header('Our Truck IVECO250E14 came to the nest')
+    st.header('Disassembly and Design Processes')
     st.write('##')
     image_column01 , image_column02, image_column03 = st.columns(3)
 
@@ -132,3 +137,29 @@ with st.container():
     with image_column03:
         st.image(img09)
         
+# 6.2 - Project01 - Pandas Visualization - Section04
+with st.container():
+    st.write('---')
+    st.header('Drivability Tests')
+    st.write('##')
+    image_column01 , image_column02, image_column03 = st.columns(3)
+
+    with image_column01:
+        st.image(img10)
+        
+    with image_column02:
+        st.image(img11)
+        
+    with image_column03:
+        st.image(img12)
+        
+    image_column01 , image_column02, image_column03 = st.columns(3)
+
+    with image_column01:
+        st.image(img13)
+        
+    with image_column02:
+        st.image(img14)
+        
+    with image_column03:
+        st.image(img15)
