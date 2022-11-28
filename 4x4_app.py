@@ -27,7 +27,7 @@ from PIL import Image
 # 1 - Set Page Configrations
 st.set_page_config(page_title="Abdullah Cay", page_icon=":tada:", layout="wide")
 
-# 3 - Load Assets (lottie, images)
+# 3 - Load Assets (images)
 
 img01 = Image.open('images/01.jpg')
 img02 = Image.open(('images/02.jpg'))
@@ -44,7 +44,7 @@ img12 = Image.open(('images/12.jpg'))
 img13 = Image.open('images/13.jpg')
 img14 = Image.open(('images/14.jpg'))
 img15 = Image.open(('images/15.jpg'))
-img16 = Image.open('images/16.jpg')
+img16 = Image.open(('images/16.jpg'))
 img17 = Image.open(('images/17.jpg'))
 img18 = Image.open(('images/18.jpg'))
 img19= Image.open('images/19.jpg') 
