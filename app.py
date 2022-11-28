@@ -44,12 +44,12 @@ img12 = Image.open('images/12.jpg')
 img13 = Image.open('images/13.jpg')
 img14 = Image.open('images/14.jpg')
 img15 = Image.open('images/15.jpg')
-img16 = Image.open('images/16.jpg')
-img17 = Image.open('images/17.jpg')
-img18 = Image.open('images/18.jpg')
-img19 = Image.open('images/19.jpg') 
-img20 = Image.open('images/20.jpg')
-img21 = Image.open('images/21.jpg')
+img16 = Image.open('images/a16.jpg')
+img17 = Image.open('images/a17.jpg')
+img18 = Image.open('images/a18.jpg')
+img19 = Image.open('images/a19.jpg') 
+img20 = Image.open('images/a20.jpg')
+img21 = Image.open('images/a21.jpg')
 
 # 2 - Use Local Css to config. Website
 
