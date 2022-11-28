@@ -203,10 +203,10 @@ with st.container():
     image_column01 , image_column02, image_column03 = st.columns(3)
 
     with image_column01:
-        st.image(Image.open('images/qwe22.jpg'))
+        st.image(Image.open('images/w22.jpg'))
         
     with image_column02:
-        st.image(Image.open('images/qwe23.jpg'))
+        st.image(Image.open('images/w23.jpg'))
         
     with image_column03:
-        st.image(Image.open('images/qwe24.jpg'))
+        st.image(Image.open('images/w24.jpg'))
