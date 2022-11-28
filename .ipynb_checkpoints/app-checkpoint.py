@@ -35,6 +35,9 @@ img03 = Image.open('images/03.jpg')
 img04 = Image.open('images/04.jpg')
 img05 = Image.open('images/05.jpg')
 img06 = Image.open('images/06.jpg')
+img07 = Image.open('images/07.jpg')
+img08 = Image.open(('images/08.jpg'))
+img09 = Image.open(('images/09.jpg'))
 
 
 
@@ -117,3 +120,15 @@ with st.container():
         
     with image_column03:
         st.image(img06)
+        
+    image_column01 , image_column02, image_column03 = st.columns(3)
+
+    with image_column01:
+        st.image(img07)
+        
+    with image_column02:
+        st.image(img08)
+        
+    with image_column03:
+        st.image(img09)
+        
