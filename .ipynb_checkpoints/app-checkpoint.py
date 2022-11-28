@@ -30,9 +30,11 @@ st.set_page_config(page_title="Abdullah Cay", page_icon=":tada:", layout="wide")
 # 3 - Load Assets (images)
 
 img01 = Image.open('images/01.jpg')
-img02 = Image.open(('images/02.jpg'))
-img03 = Image.open(('images/03.jpg'))
-
+img02 = Image.open('images/02.jpg')
+img03 = Image.open('images/03.jpg')
+img04 = Image.open('images/04.jpg')
+img05 = Image.open('images/05.jpg')
+img06 = Image.open('images/06.jpg')
 
 
 
@@ -100,3 +102,18 @@ with st.container():
     with image_column03:
         st.image(img03)
         
+# 6.2 - Project01 - Pandas Visualization - Section04
+with st.container():
+    st.write('---')
+    st.header('Our Truck IVECO250E14 came to the nest')
+    st.write('##')
+    image_column01 , image_column02, image_column03 = st.columns(3)
+
+    with image_column01:
+        st.image(img04)
+        
+    with image_column02:
+        st.image(img05)
+        
+    with image_column03:
+        st.image(img06)
