@@ -172,7 +172,7 @@ with st.container():
 # 6.2 - Project01 - Pandas Visualization - Section04
 with st.container():
     st.write('---')
-    st.header('03 ')
+    st.header('Drivability Tests ')
     st.write('##')
     image_column01 , image_column02, image_column03 = st.columns(3)
 
@@ -195,3 +195,18 @@ with st.container():
         
     with image_column03:
         st.image(Image.open('images/q21.jpg'))
+        
+with st.container():
+    st.write('---')
+    st.header('AAD 2018 - Africa Aerospace and Defence Exhibition')
+    st.write('##')
+    image_column01 , image_column02, image_column03 = st.columns(3)
+
+    with image_column01:
+        st.image(Image.open('images/q22.jpg'))
+        
+    with image_column02:
+        st.image(Image.open('images/q23.jpg'))
+        
+    with image_column03:
+        st.image(Image.open('images/q24.jpg'))
