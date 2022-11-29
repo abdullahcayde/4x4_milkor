@@ -214,15 +214,18 @@ with st.container():
 
 with st.container():
     st.write('---')
-    st.header('Drivability Tests ')
+    st.header('3D Prints')
     st.write('##')
     image_column01 , image_column02, image_column03, image_column04 = st.columns(4)
 
     with image_column01:
-        st.image(img16)
+        st.image(Image.open('images/25.JPG'))
         
     with image_column02:
-        st.image(img17)
+        st.image(Image.open('images/26.JPG'))
         
     with image_column03:
-        st.image(img18)
+        st.image(Image.open('images/27.JPG'))
+        
+    with image_column04:
+        st.image(Image.open('images/28.JPG'))

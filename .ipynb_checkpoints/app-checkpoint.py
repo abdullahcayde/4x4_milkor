@@ -210,3 +210,22 @@ with st.container():
         
     with image_column03:
         st.image(Image.open('images/w24.JPG'))
+        
+
+with st.container():
+    st.write('---')
+    st.header('3D Prints')
+    st.write('##')
+    image_column01 , image_column02, image_column03, image_column04 = st.columns(4)
+
+    with image_column01:
+        st.image(Image.open('images/25.JPG'))
+        
+    with image_column02:
+        st.image(Image.open('images/26.JPG'))
+        
+    with image_column03:
+        st.image(Image.open('images/27.JPG'))
+        
+    with image_column04:
+        st.image(Image.open('images/28.JPG'))
