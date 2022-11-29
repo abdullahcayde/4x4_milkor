@@ -67,13 +67,13 @@ st.markdown(page_bg_img, unsafe_allow_html=True)
 
 # 4 - Headers Section01
 #st.subheader("Hi, I am Abdullah Cay :wave:")
-st.title("4x4 Milkor Armoured Personnel Carier (APC) Project")
+st.title("4x4 Milkor Armoured Personnel Carrier (APC) Project")
 st.subheader(
         '''
         In this website you will see details about 4x4 Milkor Project
          - **Title** : 4x4 Milkor Armoured Personal Carier
          - **Purpose** : Prototype 4x4 APC Manufacturing
-         - **Timeline** : 22.05.20217 - 18.09.2018
+         - **Timeline** : 22.05.2017 - 18.09.2018
          - **Location** : South Africa / Johannesburg
          ''')
 
@@ -101,7 +101,7 @@ with st.container():
 # 6.1 - Project01 - Pandas Visualization - Section03
 with st.container():
     st.write('---')
-    st.header('Our Truck IVECO250E14 came to the nest')
+    st.header('IVECO-250-E14 4x4 ')
     st.write('##')
     image_column01 , image_column02, image_column03 = st.columns(3)
 
@@ -117,7 +117,7 @@ with st.container():
 # 6.2 - Project01 - Pandas Visualization - Section04
 with st.container():
     st.write('---')
-    st.header('Disassembly and Design Processes')
+    st.header('Disassembly, Design and Assembly Processes')
     st.write('##')
     image_column01 , image_column02, image_column03 = st.columns(3)
 
@@ -144,7 +144,7 @@ with st.container():
 # 6.2 - Project01 - Pandas Visualization - Section04
 with st.container():
     st.write('---')
-    st.header('Assembly')
+    st.header('Production and Assembly Processes')
     st.write('##')
     image_column01 , image_column02, image_column03 = st.columns(3)
 
@@ -210,3 +210,19 @@ with st.container():
         
     with image_column03:
         st.image(Image.open('images/w24.JPG'))
+        
+
+with st.container():
+    st.write('---')
+    st.header('Drivability Tests ')
+    st.write('##')
+    image_column01 , image_column02, image_column03, image_column04 = st.columns(4)
+
+    with image_column01:
+        st.image(img16)
+        
+    with image_column02:
+        st.image(img17)
+        
+    with image_column03:
+        st.image(img18)
